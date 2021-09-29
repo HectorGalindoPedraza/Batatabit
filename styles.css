@@ -88,3 +88,35 @@ header{
     top: 20.1rem;
     right: 5rem;
 }
+    /* Section one */
+.section-one{
+    display: flex;
+    align-items: center;
+    margin: 6.5rem 1.5rem;
+    flex-direction: column;
+    
+}
+.text-container-one{
+    margin-top: 4rem;
+    width: 100%;
+    height: auto;
+}
+.text-container-one h2{
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--warm-black);
+    margin-top: 2.4rem;
+
+}
+.text-container-one p {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #757575;
+    margin: 2.4rem;
+}
+.monedas{
+    font-size: 1.8rem;
+    color: #FF9536;
+    font-weight: 700;
+    
+}
