@@ -58,33 +58,53 @@
                 <p>Traemos informacion en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
             </div>
             <!-- Cuadro de divisas -->
-            
-                <p class="monedas">Monedas</p>
-                <p class="divisa">Bitcoin</p>
-                <p>$ 1.96</p>
-                <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M11.5 6.5L6.75 1.75L4.25 4.25L0.5 0.5" stroke="#F5450D" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <p class="divisa">Ethereum</p>
-                <p>$ 0.07</p>
-                <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M11.5 1L6.75 5.75L4.25 3.25L0.5 7" stroke="#07D635" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <p class="divisa">Ripple</p>
-                <p>$ 2.15</p>
-                <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M11.5 6.5L6.75 1.75L4.25 4.25L0.5 0.5" stroke="#F5450D" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <p class="divisa">Stellar</p>
-                <p>$ 4.96</p>
-                <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M11.5 6.5L6.75 1.75L4.25 4.25L0.5 0.5" stroke="#F5450D" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0.590027 10.59L5.17003 6L0.590026 1.41L2.00003 -6.16331e-08L8.00003 6L2.00003 12L0.590027 10.59Z" fill="black"/>
-                </svg>
-            <p><span>Actualizado:</span>19 Julio 23:45</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Monedas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="divisa first">Bitcoin</td>
+                        <td class="precio tree">$ 1.96 <svg class="icon-graph" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.5 9.5L6.75 4.75L4.25 7.25L0.5 3.5" stroke="#F5450D" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8.5 9.5H11.5V6.5" stroke="#F5450D" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="divisa">Ethereum</td>
+                        <td class="precio">$ 0.07 <svg class="icon-graph" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.5 3L6.75 7.75L4.25 5.25L0.5 9" stroke="#07D635" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8.5 3H11.5V6" stroke="#07D635" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="divisa">Ripple</td>
+                        <td class="precio">$ 2.15 <svg class="icon-graph" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.5 9.5L6.75 4.75L4.25 7.25L0.5 3.5" stroke="#F5450D" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8.5 9.5H11.5V6.5" stroke="#F5450D" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></td>
+                    </tr>
+                    <tr>
+                        <td class="divisa two">Stellar</td>
+                        <td class="precio four">$ 4.96 <svg class="icon-graph" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.5 9.5L6.75 4.75L4.25 7.25L0.5 3.5" stroke="#F5450D" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8.5 9.5H11.5V6.5" stroke="#F5450D" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></td>
+                    </tr>
+                </tbody>
+                <div class="next">
+                    <svg class="next-vector" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.590027 10.59L5.17003 6L0.590026 1.41L2.00003 -6.16331e-08L8.00003 6L2.00003 12L0.590027 10.59Z" fill="black"/>
+                    </svg>
+                </div>
+            </table>
+            <p class="text-divisas"><span>Actualizado:</span> 19 Julio 23:45</p>
         </section>
+        <!-- section two -->
         <section class="section-two">
             <h2>Creamos un producto sin comparación.</h2>
             <p>Confiable y diseñado para su uso diario.</p>
@@ -121,11 +141,12 @@
                 <p>Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
             </div>
         </section>
+        <!-- Section tree -->
         <section class="section-tree">
-            <picture>
-                <img src="https://i.postimg.cc/pVSrMf3n/bitcoinbaby-1.jpg" alt="">
-            </picture>
             <p>Conócelo hoy.</p>
+            <picture>
+                <img src="https://i.postimg.cc/pVSrMf3n/bitcoinbaby-1.jpg" alt="Conócelo hoy.">
+            </picture>
         </section>
         <section id="planes" class="section-four">
             <h2>Escoje el plan que mejor se ajuste a ti.</h2>

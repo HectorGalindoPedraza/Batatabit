@@ -26,6 +26,9 @@ html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
+body{
+    background-color: whitesmoke;
+}
 header{
     display: flex;
     justify-content: center;
@@ -113,10 +116,133 @@ header{
     font-size: 1.4rem;
     color: #757575;
     margin: 2.4rem;
+    font-weight: 500;
 }
-.monedas{
-    font-size: 1.8rem;
+table{
+    padding-right: 1rem;    
+}
+tbody{
+    font-family: inter;
+}
+th{
     color: #FF9536;
+    font-size: 1.8rem;
+}
+td{
+    width: 10.1rem;
+    height: 3.9rem;
+    background-color: #fff;
+}
+.divisa{
+    font-size: 1.6rem;
+    padding: 12px 10px;
+    color: #B5B0AC;
+}
+.first{
+    border-radius: 8px 0px 0px 0px;
+}
+.two{
+    border-radius: 0px 0px 0px 8px;
+}
+.tree{
+    border-radius: 0px 8px 0px 0px;
+}
+.four{
+    border-radius: 0px 0px 8px 0px;
+}
+.precio{
+    font-size: 1.4rem;
+    padding: 12px 10px;
+    color: #757575;
+}
+.icon-graph{
+    margin-left: 1.1rem;
+}
+.next{
+    width: 1rem;
+    height: 30px;
+    margin: .3rem
+}
+.text-divisas{
+    width: 50%;
+    height: 3.1rem;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: var(--soft-orange);
+    margin-top: 1.6rem;
+    font-size: 1.2rem;
+    font-family: inter;
+}
+.text-divisas span{
     font-weight: 700;
-    
+}
+    /* Section two */
+.section-two{
+    width: 100%;
+    height: auto;
+    background-color: var(--warm-black); 
+    display: flex;
+    padding: 0px 20px  6rem;
+    align-items: center;
+    flex-direction: column;
+
+}
+.section-two h2{
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+    font-size: 2.4rem;
+    margin-top: 6rem;
+}
+.section-two>p{
+    width: 100%;
+    margin-top: 2.4rem;
+    text-align: center;
+    color: #808080;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 3.2rem;
+}
+.box {
+    width: 100%;
+    height: auto;
+    background-color: var(--black);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    padding: 1.7rem;
+    /* margin-bottom: 1.6rem; */
+    border-radius: 4px;
+    /* margin-top: 3.2rem; */
+    margin: .5rem 0px 1.6rem;
+}
+.section-two .box svg{
+    margin-left: .6rem;
+}
+.box h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--white);
+    padding: 1rem .5rem 0px;
+}
+.box p{
+    font-size: 1.4rem;
+    text-align: left;
+    margin-top: 1rem;
+    padding: .5rem; 
+    color: #808080;
+}
+    /* Section tree */
+img{
+    width: 100%;
+}
+.section-tree>p{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white);
 }
