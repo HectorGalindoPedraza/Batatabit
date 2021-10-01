@@ -252,9 +252,6 @@ img{
     height: auto;
     text-align: center;
     padding: 5.5rem 0px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
 }
 .section-four h2{
     width: 100%;
@@ -327,3 +324,27 @@ img{
     justify-content: space-between;
 }
     /* footer */
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: var(--bitcoin-orange);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4rem 0px 4rem 0px;
+}
+.list-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+.list-footer li{
+    font-size: 1.4rem;
+    color: var(--white);
+    display: flex;
+    margin: .3rem;
+}
+.img-footer{
+    display: flex;
+    justify-content: center;
+}
