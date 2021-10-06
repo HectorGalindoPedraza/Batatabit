@@ -8,9 +8,9 @@
 :root{
     /* Colores */
     --bitcoin-orange: #F7931A;
-    --soft-orange: #FFE9D5;
+    --soft-orange: #ffcfa2;
     --secondary-blue: #1A9AF7;
-    --soft-blue: #E7F5FF;
+    --soft-blue: #99d5ff;
     --warm-black: #201E1C;
     --black: #282623;
     --grey: #BABABA;
@@ -31,16 +31,13 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
     min-width:320px;
-    height: 334;
+    height: 334px;
+    height: 100vh;
     text-align: center;
-    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
-}
-header img{
-    width: 151px;
-    height: 24px;
-    margin-top: 60px;
+    background: radial-gradient(circle, #d28539 0%, #201e1c 100%);
 }
 .header--title-container{
     width: 90%;
@@ -65,7 +62,7 @@ header img{
 .header--title-container .header--button{
     position: absolute;
     left: calc(50% - 118px);
-    top: 270px;
+    top: 60%;
     display: block;
     margin-top: 35px;
     padding: 15px;
@@ -140,7 +137,7 @@ main{
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 20px;
     font-family: "Inter", sans-serif;
 }
 .main-currency-table .currency-table--title{
@@ -274,9 +271,9 @@ main{
 .commision-table--container{
     width: 70%;
     min-width: 230px;
-    max-width: 500px;
-    height: 360px;
-    margin: 0 auto;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 20px;
     font-family: "Inter", sans-serif;
 }
 .commision-table--container .commision-table--title{
@@ -285,13 +282,6 @@ main{
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--secondary-blue);
-}
-.commision-table--container{
-    width: 70%;
-    min-width: 230px;
-    max-width: 300px;
-    height: 250px;
-    margin: 0 auto;
 }
 .commision-table--container table{
     width: 100%;
@@ -342,6 +332,12 @@ main{
     color: var(--warm-black);
     font-weight: 300;
 }
+.main-tables-container{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
     /* Section two */
 .main-product-detail{
     margin-top: 120px;
@@ -351,6 +347,9 @@ main{
     height: auto;
     padding: 20px 10px 40px 10px;
     background-color: var(--warm-black);
+    background-color: #191919;
+    background-color: #d08438;
+    background: linear-gradient(180deg, var(--warm-black) 0%, rgba(247,147,26,1) 100%);
 }
 .main-product-detail--batata-logo{
     position: absolute;
@@ -534,30 +533,6 @@ main{
     border-radius: 8px;
     color: var(--white);
 }
-.basic{
-    position: absolute;
-    width: 120px;
-    height: 31px;
-    top: -15px;
-    left: calc(50% - 60px);
-    font-size: 1.2rem;
-    padding: 7px;
-    background-color: var(--bitcoin-orange);
-    border-radius: 8px;
-    color: var(--white);
-}
-.duo{
-    position: absolute;
-    width: 120px;
-    height: 31px;
-    top: -15px;
-    left: calc(50% - 60px);
-    font-size: 1.2rem;
-    padding: 7px;
-    background-color: #2b70c9;
-    border-radius: 8px;
-    color: var(--white);
-}
 .plan-card--title{
     padding-top: 30px;
     font-size: 1.4rem;
@@ -662,6 +637,39 @@ footer .left ul{
     font-weight: 500px;
     line-height: 1.8rem;
     list-style: none;
+}
+.li-logo{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    background-image: url('../assets/ICONS/linkedin-icon-2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+}
+.cb-logo{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    background-image: url('../assets/ICONS/logo_crunchbase.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
+}
+.hn-logo{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    background-image: url('../assets/ICONS/hacker-news.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
 }
 .left li {
     margin: 10px 0;

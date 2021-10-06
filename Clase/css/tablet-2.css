@@ -1,0 +1,7 @@
+.main-tables-container{
+    display: flex;
+    width: 546px;
+    margin: 0 auto;
+    max-width: 546px;
+    overflow-x: hidden;
+}
